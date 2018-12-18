@@ -21,7 +21,7 @@ public class NextPluginActivity extends AppCompatActivity {
     }
 
     public void onDownloadTextPlugin(View view) {
-        // 插件下载地址 https://raw.githubusercontent.com/xyz442/webview-plugin/master/
+        // 插件下载地址
         String urlPath = "https://raw.githubusercontent.com/xyz442/webview-plugin/master/app/src/main/res/raw/webview.apk";
         // 插件下载后的存放路径
         String downloadDir = Environment.getExternalStorageDirectory().getAbsolutePath();
@@ -40,7 +40,7 @@ public class NextPluginActivity extends AppCompatActivity {
 
     public void onUpdateTextPlugin(View view) {
         // 插件下载地址
-        String urlPath = "https://github.com/xyz442/webview-plugin/blob/master/app/src/main/res/raw/webview.apk";
+        String urlPath = "https://raw.githubusercontent.com/xyz442/PluginDemo/master/app/src/main/res/raw/webview.apk";
         // 插件下载后的存放路径
         String downloadDir = Environment.getExternalStorageDirectory().getAbsolutePath();
 

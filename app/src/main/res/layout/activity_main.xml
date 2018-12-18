@@ -28,7 +28,7 @@
         android:id="@+id/download_plugin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="下载更新"
+        android:text="下载"
         tools:layout_editor_absoluteX="218dp"
         tools:layout_editor_absoluteY="130dp" />
     <ScrollView

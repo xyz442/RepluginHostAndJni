@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // 插件下载地址
-                String urlPath = "https://raw.githubusercontent.com/ZhangZeQiao/ImagePluginDemo/7c5866db83b57c455302fac12ea72af30d9a5364/app/src/main/assets/image.apk";
+                String urlPath = "https://raw.githubusercontent.com/xyz442/PluginDemo/master/app/src/main/res/raw/plugin.apk";
                 // 插件下载后的存放路径
                 String downloadDir = Environment.getExternalStorageDirectory().getAbsolutePath();
 
@@ -72,7 +72,6 @@ public class MainActivity extends AppCompatActivity {
                 startService(intent);
             }
         });
-
     }
 
     public void onJumpToPlugin(View view) {

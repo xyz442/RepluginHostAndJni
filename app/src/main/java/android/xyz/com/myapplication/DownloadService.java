@@ -73,13 +73,13 @@ public class DownloadService extends IntentService {
                 len += size;
                 out.write(buf, 0, size);
                 // 下载百分比
-                Log.v("xyz", "下载了-------> " + len * 100 / fileLength);
+                Log.e("xyz", "下载了-------> " + len * 100 / fileLength);
             }
             bin.close();
             out.close();
             // 升级安装插件新版本
             RePlugin.install(path);
-            Log.v("xyz", "下载完成 : " + path);
+            Log.e("xyz", "下载完成 : " + path);
 
         } catch (MalformedURLException e) {
             e.printStackTrace();
